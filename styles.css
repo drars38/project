@@ -13,6 +13,7 @@ header {
     color: #fff;
     padding: 1rem 0;
 }
+
 contact {
     background: #fff;
     padding: 2rem;
@@ -145,4 +146,55 @@ footer {
     .card img {
         height: 150px;
     }
+}
+/* Стили для раздела с контактами */
+#contact {
+    background: #fff;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+#contact p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+#contact a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
+
+/* Контейнер для иконок и текста */
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-item i {
+    font-size: 1.25rem;
+    color: #007bff;
+}
+
+.contact-item span {
+    font-size: 1rem;
+    color: #555;
 }
